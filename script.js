@@ -41,7 +41,6 @@ let Moon = "./Moon pics/lunar_phases.gif";
   //make variable and set them to blank
   // switch determines which phase matches the completion percentage
   //var imgElement = document.querySelector('.myGif');
-imgElement.src = 'path/to/newImage.jpg';
   switch (true)
   {
     case (cycleRemainder < 12.5):
