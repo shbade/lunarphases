@@ -35,34 +35,45 @@ function calculateDifferenceinDays(originDate, userDate) {
   phasesPast = Math.trunc(daysPassed/LENGTHOFCYCLE)
   cycleRemainder = daysPassed % LENGTHOFCYCLE;
 
+//Variable for the photo of the moon
+let Moon = "./Moon pics/lunar_phases.gif";
 
+  //make variable and set them to blank
   // switch determines which phase matches the completion percentage
   switch (true)
   {
     case (cycleRemainder < 12.5):
         phase = "Full Moon";
         console.log("It is printing");
+        Moon = "./Moon pics/New moon.jpeg";
         break;
     case (cycleRemainder < 25 && cycleRemainder >= 12.5):
         phase = "Waning Gibbous";
+         Moon = "./Moon pics/Waning Gibbous.jpeg";
         break;
     case (cycleRemainder < 37.5 && cycleRemainder >= 25):
         phase = "Third Quarter";
+         Moon = "./Moon pics/Third Quarter.jpeg";
         break;
     case (cycleRemainder < 50 && cycleRemainder >= 37.5):
         phase = "Waning Crescent";
+         Moon = "./Moon pics/Waninig Cresent.jpeg";
         break;
     case (cycleRemainder < 62.5 && cycleRemainder >= 50):
         phase = "New Moon";
+        Moon = "./Moon pics/New moon.jpeg";
         break;
     case (cycleRemainder < 75 && cycleRemainder >= 62.5):
         phase = "Waxing Crescent";
+         Moon = "./Moon pics/Waxing Cresent.jpeg";
         break;
     case (cycleRemainder < 87.5 && cycleRemainder >= 75):
         phase = "First Quarter";
+         Moon = "./Moon pics/First Quarter.jpeg";
         break;
     case (cycleRemainder >= 87.5):
         phase = "Waxing Gibbous";
+         Moon = "./Moon pics/Waxing Gibbous.jpeg";
         break;
   }
 
