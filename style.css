@@ -42,3 +42,9 @@ label {
     color: #f6f6f6;
     transition: 0.03s;
 }
+
+input[type = "date"] {
+    background-color: #f6f6f6;
+    padding: 2px;
+    font-size: larger;
+}
