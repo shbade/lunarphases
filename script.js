@@ -20,5 +20,3 @@ const givenDate = new Date (givenYear, givenMonth, givenDay)
 
 
 console.log(givenDate);
-
-
