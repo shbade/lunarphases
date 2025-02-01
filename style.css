@@ -1,9 +1,9 @@
 * {  
     text-align: center;
-    color: rgb(220, 200, 20);
+    color: rgb(255, 239, 91);
     }
 body {
-    background-image: url(./background-image.jpg);
+    background-image: url(./background.jpg);
     font-family: Arial, sans-serif;
 }
 .header {
