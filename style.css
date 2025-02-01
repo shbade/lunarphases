@@ -1,6 +1,9 @@
 * {  
     text-align: center;
-    color: rgb(220, 200, 20);
+    color: black;
+    border: 1px solid red;
+    -webkit-text-stroke: 1px rgb(220, 200, 20);
+    font-size: 25px;
     }
 body {
     background-image: url(./background-image.jpg);
@@ -18,8 +21,15 @@ body {
 .container {
     margin: 20px;
 }
+input{
+    color: rgb(220, 200, 20);
+    background-color: black;
+    color-scheme: dark;
+    filter: invert 100%;
+}
 .form-group {
     margin-bottom: 10px;
+    
 }
 label {
     font-weight: bold;
@@ -28,14 +38,15 @@ label {
 .button {
     border-radius: 20px;
     padding: 10px;
-    background-color: #f6f6f6;
+    background-color: black;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(220, 200, 20);
+    
 }
 
 .button:hover {
-    background-color: black;
-    transition: 0.6s;
-    border: solid;
-    border-width: 2px;
+
 }
 
 .button:active {
