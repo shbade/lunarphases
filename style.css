@@ -1,14 +1,19 @@
+* {  
+    text-align: center;
+    color: rgb(220, 200, 20);
+    }
 body {
-    background-color: #aaa59f; /* Light brown background */
+    background-image: url(./360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg);
     font-family: Arial, sans-serif;
 }
 .header {
-    background-color: rgb(245, 245, 245);
+    background-color: blue;
     color: black;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
     padding: 15px;
+
 }
 .container {
     margin: 20px;
