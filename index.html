@@ -7,21 +7,21 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-
-    <script src = "script.js"></script>
-
+<!-- need to have place to present variable moon. Likely in same place as gif -->
     <h2><strong>Enter a date to see its probable moon phase:</strong></h2>
 
-
+<!---->
         <div class="form-group">
             <div>Enter in yyyy-mm-dd format</div>
             <input type="number" id="year" name="year" min="1700" max="2100">
         </div>
+        <!--planning on putting photos here-->
         <div class="img">
-            <img src ="./lunar_phases.gif" 
-            alt="Moon cyclying thru it's lunar phases"  width="200" height="200"/>
+            <img id="moon" src ="./Moon pics/lunar_phases.gif" 
+            alt="Moon cyclying thru it's lunar phases"  width="200" 
+            title="It's a Moon, what did you expect?"/>
         </div>
             <button type="submit">Tell me the moon phase!</button>
-
+    <script src = "script.js"></script>
 </body>
 </html>
