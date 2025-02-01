@@ -1,9 +1,9 @@
 body {
-    background-color: #deb887; /* Light brown background */
+    background-color: #aaa59f; /* Light brown background */
     font-family: Arial, sans-serif;
 }
 .header {
-    background-color: blue;
+    background-color: rgb(245, 245, 245);
     color: black;
     font-weight: bold;
     font-size: 20px;
