@@ -24,3 +24,21 @@ body {
 label {
     font-weight: bold;
 }
+
+.button {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+.button:hover {
+    background-color: black;
+    transition: 0.6s;
+    border: solid;
+    border-width: 2px;
+}
+
+.button:active {
+    color: #f6f6f6;
+    transition: 0.03s;
+}
