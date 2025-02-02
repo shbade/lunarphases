@@ -57,9 +57,13 @@ label {
 
 .button:hover {
 cursor: pointer;
+-webkit-text-stroke: 1px white;
 }
 
 .button:active {
     color: #f6f6f6;
     transition: 0.03s;
+}
+#resultsDiv{
+    -webkit-text-stroke: 1px white;
 }
