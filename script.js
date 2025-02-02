@@ -108,7 +108,7 @@ function moonPhaseCalc(chosenDate) {
                 break;
             case (cycleRemainder > -50 && cycleRemainder <= -37.5):
                 phase = "Waxing Gibbous";
-                setMoonPhoto("./Moon pics/Waxing Gibbous Moon.jpeg");
+                setMoonPhoto("./Moon pics/Waxing Gibbous.jpeg");
                 break;
             case (cycleRemainder > -62.5 && cycleRemainder <= -50):
                 phase = "Full Moon";
