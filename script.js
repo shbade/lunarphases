@@ -43,6 +43,10 @@ function moonPhaseCalc(chosenDate){
         let differenceInDays = differenceInMillis / millisecondsToDays;
         return differenceInDays;
     }
+    function printResults(){
+        const divElement = document.getElementById("resultsDiv");
+         divElement.innerHTML = "The moon will be in its " + phase + " phase on " + chosenDate;
+     }
 
     daysPassed = calculateDifferenceinDays(chosenDate);
   
@@ -87,6 +91,7 @@ if (cycleRemainder >= 0) {
         setMoonPhoto("./Moon pics/Waxing Gibbous Moon.jpeg");
         break;
     }console.log(phase);
+    printResults();
 }
 else {
     switch (true)
@@ -122,9 +127,9 @@ else {
         setMoonPhoto("./Waning Gibbous.jpg");
         break;
     }
+    printResults();
     console.log(phase);
     }
-    
     }
 
 
@@ -137,14 +142,8 @@ function updateUI(img,button){
 function setMoonPhoto(imgPath){
     imageElement = document.getElementById("moon");
     imageElement.setAttribute("src", imgPath);
-
-
-
 }
-
-
 function debug(){
     let daysPassed = calculateDifferenceinDays();
 
 }
-
