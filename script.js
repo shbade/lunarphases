@@ -71,7 +71,7 @@ function moonPhaseCalc(chosenDate) {
                 break;
             case (cycleRemainder < 50 && cycleRemainder >= 37.5):
                 phase = "Waning Crescent";
-                setMoonPhoto("./Moon pics/Waning Crescent Moon.jpeg");
+                setMoonPhoto("./Moon pics/Waning Crescent.jpeg");
                 break;
             case (cycleRemainder < 62.5 && cycleRemainder >= 50):
                 phase = "New Moon";
@@ -83,11 +83,11 @@ function moonPhaseCalc(chosenDate) {
                 break;
             case (cycleRemainder < 87.5 && cycleRemainder >= 75):
                 phase = "First Quarter";
-                setMoonPhoto("./Moon pics/First Quarter Moon.jpeg");
+                setMoonPhoto("./Moon pics/First Quarter.jpeg");
                 break;
             case (cycleRemainder >= 87.5):
                 phase = "Waxing Gibbous";
-                setMoonPhoto("./Moon pics/Waxing Gibbous Moon.jpeg");
+                setMoonPhoto("./Moon pics/Waxing Gibbous.jpeg");
                 break;
         }console.log(phase);
         printResults();
@@ -95,34 +95,34 @@ function moonPhaseCalc(chosenDate) {
     else {
         switch (true) {
             case (cycleRemainder > -12.5):
-                phase = "Full Moon";
-                setMoonPhoto("./Moon pics/Full moon.jpg");
+                phase = "New Moon";
+                setMoonPhoto("./Moon pics/New moon.jpeg");
                 break;
             case (cycleRemainder > -25 && cycleRemainder <= -12.5):
                 phase = "Waxing Gibbous";
-                setMoonPhoto("./Moon pics/Waxing Gibbous Moon.jpeg");
+                setMoonPhoto("./Moon pics/Waxing Gibbous.jpeg");
                 break;
             case (cycleRemainder > -37.5 && cycleRemainder <= -25):
                 phase = "First Quarter";
-                setMoonPhoto("./Moon pics/First Quarter Moon.jpeg");
+                setMoonPhoto("./Moon pics/First Quarter.jpeg");
                 break;
             case (cycleRemainder > -50 && cycleRemainder <= -37.5):
                 phase = "Waxing Crescent";
                 setMoonPhoto("./Moon pics/Waxing Cresent.jpeg");
                 break;
             case (cycleRemainder > -62.5 && cycleRemainder <= -50):
-                phase = "New Moon";
-                setMoonPhoto("./Moon pics/New moon.jpeg");
+                phase = "Full Moon";
+                setMoonPhoto("./Moon pics/Full moon.jpg");
             case (cycleRemainder > -75 && cycleRemainder <= -62.5):
-                phase = "Waning Crescent";
-                setMoonPhoto("./Moon pics/Waning Crescent Moon.jpeg");
+                phase = "Waning Gibbous";
+                setMoonPhoto("./Moon pics//Waning Gibbous.jpg");
                 break;
             case (cycleRemainder > -87.5 && cycleRemainder <= -75):
                 phase = "Third Quarter";
                 setMoonPhoto("./Moon pics/Third Quarter.jpeg");
             case (cycleRemainder <= 87.5):
-                phase = "Waning Gibbous";
-                setMoonPhoto("./Moon pics//Waning Gibbous.jpg");
+                phase = "Waning Crescent";
+                setMoonPhoto("./Moon pics/Waning Crescent.jpeg");
                 break;
         }
         printResults();
