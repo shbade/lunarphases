@@ -1,9 +1,10 @@
 * {  
     text-align: center;
     color: black;
-    border: 1px solid red;
+    border: ;
     -webkit-text-stroke: 1px rgb(220, 200, 20);
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bolder;
     }
 body {
     background-image: url(./background-image.jpg);
@@ -16,6 +17,7 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 15px;
+    margin-top: 30px;
 
 }
 .container {
@@ -26,10 +28,13 @@ input{
     background-color: black;
     color-scheme: dark;
     filter: invert 100%;
+    border-color: rgb(220, 200, 20);
+    border-width: 2px;
+    margin-bottom: 30px;
 }
 .form-group {
     margin-bottom: 10px;
-    
+
 }
 label {
     font-weight: bold;
@@ -42,6 +47,7 @@ label {
     border-width: 2px;
     border-radius: 8px;
     border-color: rgb(220, 200, 20);
+    margin-top: 20px;
     
 }
 
