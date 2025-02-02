@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moon Phase Predictor</title>
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-<!-- need to have place to present variable moon. Likely in same place as gif -->
+    <!-- need to have place to present variable moon. Likely in same place as gif -->
     <p>ENTER A DATE TO SEE THE PROBABLE MOON PHASE</p>
 
-<!---->
+    <!---->
+    <div class="form-group">
         <div class="form-group">
-            <div class="form-group">
-                <input id="dateInput"  type="date">
-            </div>
+            <input id="dateInput" type="date">
+        </div>
         <!--planning on putting photos here-->
         <div class="img" id="moonphoto">
-            <img id="moon" src="./Moon pics/lunar_phases.gif"
-            alt="Moon cyclying thru it's lunar phases"  width="450" height="450"
-            title="It's a Moon, what did you expect?"/> 
+            <img id="moon" src="./Moon pics/lunar_phases.gif" alt="Moon cyclying thru it's lunar phases" width="450"
+                height="450" title="It's a Moon, what did you expect?" />
         </div>
-        <div id = "resultsDiv"></div>
-            <button type="submit" class = "button" onclick="moonPhaseCalc()" >TELL ME THE MOON PHASE!</button>
-    <script src = "script.js"></script>
+        <div id="resultsDiv"></div>
+        <button type="submit" class="button" onclick="moonPhaseCalc()">TELL ME THE MOON PHASE!</button>
+        <script src="script.js"></script>
 
 </body>
+
 </html>
