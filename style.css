@@ -1,14 +1,16 @@
-* {  
+* {
     text-align: center;
     color: black;
     -webkit-text-stroke: 1px rgb(220, 200, 20);
     font-size: 40px;
     font-weight: bolder;
-    }
+}
+
 body {
     background-image: url(./background-image.jpg);
     font-family: Arial, sans-serif;
 }
+
 .header {
     background-color: blue;
     color: black;
@@ -19,13 +21,16 @@ body {
     margin-top: 30px;
 
 }
-h2{
+
+h2 {
     font-size: 30px;
 }
+
 .container {
     margin: 20px;
 }
-input{
+
+input {
     color: rgb(220, 200, 20);
     background-color: black;
     color-scheme: dark;
@@ -36,10 +41,12 @@ input{
     border-radius: 10px;
     padding: 10px;
 }
+
 .form-group {
     margin-bottom: 10px;
 
 }
+
 label {
     font-weight: bold;
 }
@@ -52,7 +59,7 @@ label {
     border-radius: 8px;
     border-color: rgb(220, 200, 20);
     margin-top: 20px;
-    
+
 }
 img{
     object-fit: contain;
@@ -61,14 +68,15 @@ img{
     margin: 0 20%;
 }
 .button:hover {
-cursor: pointer;
--webkit-text-stroke: 1px white;
+    cursor: pointer;
+    -webkit-text-stroke: 1px white;
 }
 
 .button:active {
     color: #f6f6f6;
     transition: 0.03s;
 }
-#resultsDiv{
+
+#resultsDiv {
     -webkit-text-stroke: 1px white;
 }
