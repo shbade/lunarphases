@@ -5,10 +5,13 @@
     font-size: 40px;
     font-weight: bolder;
 }
-
+html{
+    background-color: black;
+}
 body {
     background-image: url(./background-image.jpg);
     font-family: Arial, sans-serif;
+    padding: 5% 5% 20%;
 }
 
 .header {
