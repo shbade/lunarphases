@@ -54,7 +54,12 @@ label {
     margin-top: 20px;
     
 }
-
+img{
+    object-fit: contain;
+}
+#moonphoto{
+    margin: 0 20%;
+}
 .button:hover {
 cursor: pointer;
 -webkit-text-stroke: 1px white;
